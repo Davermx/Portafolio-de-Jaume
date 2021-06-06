@@ -1,0 +1,32 @@
+.card img {
+  padding: 24px 132px;
+}
+
+.referencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(39.7657px);
+  /* border: 3px solid #ffffff; */
+  /* border: 3px transparent linear-gradient(70deg, black, white); */
+  border: 3px solid #ffffff;
+}
+
+.referencia1 {
+  padding: 0 24px;
+  font: var(--fontBase2);
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.referencia2 {
+  padding: 0 24px;
+  color: var(--);
+  font: var(--caption);
+  text-align: left;
+  opacity: 0.5;
+}
