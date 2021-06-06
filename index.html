@@ -12,11 +12,45 @@
 </head>
 
 <body>
-  <p>Davermx</p>
-  <header class="header">
-    <img src="./img/LOGO.png" width="70" height="20" alt="logo jaume">
-    <button>Curriculum</button>
-  </header>
+  <div class="wrapper">
+    <header class="header">
+      <img src="./img/LOGO.png" width="70" height="20" alt="logo jaume">
+      <nav class="menu">
+        <ul>
+          <li>
+            <a class="is-active" href="#main">Hola</a>
+          </li>
+          <li>
+            <a href="#project">Proyectos</a>
+          </li>
+          <li>
+            <a href="#contact">Hablemos</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="button">Curriculum</button>
+      <!-- <button class="button is-secondary">Curriculum</button> -->
+    </header>
+    <section class="hero" id="main">
+      <div class="hero-image">
+        <img src="./img/jaume.png" width="338" height="330" alt="">
+      </div>
+      <div class="hero-description">
+        <h1>
+          <span>¡Hola a Todos!</span>
+          <span>Soy Jaume</span>
+        </h1>
+        <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+        <div class="hero-social">
+          <a class="button-icon" href="tel: 2103015"><img src="./icons/telefono.svg" alt=""></a>
+          <a class="button-icon" href="tel: 2103015"><img src="./icons/email.svg" alt=""></a>
+          <a class="button-icon" href="tel: 2103015"><img src="./icons/instagram.svg" alt=""></a>
+          <a class="button-icon" href="tel: 2103015"><img src="./icons/twitter.svg" alt=""></a>
+        </div>
+        <a href="#" class="button">Descargar Curriculum</a>
+      </div>
+    </section>
+  </div>
 </body>
 
 </html>
