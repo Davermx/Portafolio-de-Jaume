@@ -12,8 +12,16 @@
   padding-block-end: 24px;
 }
 
-.hero-image {
+.hero-image img {
+  height: 310.62px;
+  width: 328px;
   text-align: center;
+}
+
+/* .hero-image img {
+  height: 310.62px;
+  width: 298px;
+  text-align: center; */
 }
 
 .hero h1 { 
@@ -40,7 +48,7 @@
   }
   .hero-image{
     order: 2;
-    text-align: end;
+    text-align: end; 
     flex:1;
   }
   

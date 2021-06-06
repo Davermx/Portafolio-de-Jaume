@@ -1,0 +1,39 @@
+.comments {
+  /* padding-block-end: 200px;
+  padding-block-start: 200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--headline5);
+  text-align: center;
+  padding: 40px 0;
+  /* gap: 24px; */
+}
+
+.testimonial2{
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.comments-image {
+  margin: auto;
+  height: 80px;
+  width: 80px;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .comments {
+    padding: 335px 150px 304px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .comments {
+    padding: 335px 292px 304px;
+  }
+}
