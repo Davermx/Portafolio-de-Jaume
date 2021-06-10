@@ -1,3 +1,9 @@
+.card {
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+}
+
+
 .card img {
   padding: 24px 132px 0;
 }
