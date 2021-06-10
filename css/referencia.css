@@ -1,5 +1,5 @@
 .card img {
-  padding: 24px 132px;
+  padding: 24px 132px 0;
 }
 
 .referencia {
@@ -11,9 +11,6 @@
   border-radius: 24px;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(39.7657px);
-  /* border: 3px solid #ffffff; */
-  /* border: 3px transparent linear-gradient(70deg, black, white); */
-  border: 3px solid #ffffff;
 }
 
 .referencia1 {
@@ -29,4 +26,17 @@
   font: var(--caption);
   text-align: left;
   opacity: 0.5;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .referencia {
+    margin: 80px 117px;
+  }
+
+  .referencia1 {
+    padding: 24px 80px 0;
+    margin-top: 0;
+    text-align: center;
+  }
 }
