@@ -14,24 +14,29 @@
 </head>
 
 <body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <img src="./img/logo-daguilera.png" width="80" height="29" alt="logo de David Aguilera">
+        <nav class="menu" aria-label="main-navigation">
+          <ul>
+            <li>
+              <a class="is-active" href="#main">Hola</a>
+            </li>
+            <li>
+              <a href="#project">Proyectos</a>
+            </li>
+            <li>
+              <a href="#contact">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button">Curriculum</button>
+      </div>
+    </div>
+  </header>
   <div class="wrapper">
-    <header class="header">
-      <img src="./img/logo-daguilera.png" width="80" height="29" alt="logo de David Aguilera">
-      <nav class="menu" aria-label="main-navigation">
-        <ul>
-          <li>
-            <a class="is-active" href="#main">Hola</a>
-          </li>
-          <li>
-            <a href="#project">Proyectos</a>
-          </li>
-          <li>
-            <a href="#contact">Hablemos</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="button">Curriculum</button>
-    </header>
+
     <section aria-label="main" class="hero" id="main">
       <div class="hero-image">
         <img src="./img/dave.png" alt="">
@@ -66,11 +71,11 @@
       </p>
       <img class="comments-image" src="./icons/arrow-down.svg" alt="flecha-abajo">
     </section>
-    <div class="testimony">
-      <div class="testimony-image">
+    <div class="project" id="project">
+      <div class="project-image">
         <img src="./img/portfolio.png" alt="laptop de testimonio">
       </div>
-      <div class="testimony-description">
+      <div class="project-description">
         <a class="title" target="_blank" href="https://www.daguilera.dev/">Portafolio David</a>
         <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
         <a target="_blank" href="https://github.com/Davermx/Portfolio" class="button is-secondary">Ver codigo</a>
@@ -85,11 +90,11 @@
         <p class="referencia2">LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
       </div>
     </section>
-    <div class="testimony">
-      <div class="testimony-image">
+    <div class="project">
+      <div class="project-image">
         <img src="./img/📱 iPad.png" alt="ipad de testimonio">
       </div>
-      <div class="testimony-description">
+      <div class="project-description">
         <a class="title" target="_blank" href="https://davermx.github.io/CloneGoogle/">Googl</a>
         <p>Es el sitio oficial de Googl. el mejor buscador, encuentras lo que sea desde imagenes, texto y videos.</p>
         <a target="_blank" href="https://github.com/Davermx/CloneGoogle" class="button is-secondary">Ver codigo</a>
@@ -104,11 +109,11 @@
         <p class="referencia2">JASON LOPEZ / COFUNDADOR Y CEO Googl</p>
       </div>
     </section>
-    <div class="testimony">
-      <div class="testimony-image">
+    <div class="project">
+      <div class="project-image">
         <img src="./img/📱 Iphone X.png" alt="laptop de testimonio">
       </div>
-      <div class="testimony-description">
+      <div class="project-description">
         <a class="title" target="_blank" href="https://davermx.github.io/CloneNetflix/">NETNET</a>
         <p>Películas y series ilimitadas y mucho más. Disfruta donde quieras. Cancela cuando quieras.</p>
         <a target="_blank" href="https://github.com/Davermx/CloneNetflix" class="button is-secondary">Ver codigo</a>
@@ -145,7 +150,7 @@
       </div>
     </form>
     <a href="mailto:daguilera@protonmail.com" id="trucazo">mail</a>
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="footer-content">
         <div class="footer-logo">
           <img src="./img/logo-daguileraw.png" width="80" height="29" alt="logo de David Aguilera">
